@@ -2,44 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Basic Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header>
+    <h1>Your Name</h1>
+    <p>Your Tagline or Profession</p>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>My name is Placeholder and I'm a developer. Here are some details about me:</p>
-    </section>
+<nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-        </ul>
-    </section>
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Placeholder text for a brief introduction about yourself. Add your background, skills, and interests here.</p>
+</section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: placeholder@example.com</p>
-        <p>Phone: (123) 456-7890</p>
-    </section>
+<section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <p>Placeholder for your projects. You can add project images, descriptions, and links here.</p>
+</section>
 
-    <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-    </footer>
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Placeholder for contact information or a contact form. Add your email, phone number, or social media links here.</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
